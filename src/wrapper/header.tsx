@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['', '', ''];
-const settings = [ 'Account',];
+const pages = [ ];
+const settings = [ ];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -157,3 +157,4 @@ function Header() {
   );
 }
 export default Header;
+
